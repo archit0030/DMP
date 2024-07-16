@@ -3,15 +3,12 @@
 import sys
 import time
 import rospy
-import moveit_commander
-import moveit_msgs.msg
 import geometry_msgs.msg
 from math import pi
 from std_srvs.srv import Empty
 import numpy as np
 import matplotlib.pyplot as plt
 import numpy as np 
-from sensor_msgs.msg import JointState
 import os
 import pandas as pd
 from math import pi, degrees
