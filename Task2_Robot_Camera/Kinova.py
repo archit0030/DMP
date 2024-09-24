@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+
+#steps to execute -
+# roslaunch kinova_vision kinova_vision.launch
+# python3 Kinova.py
+
+
 import cv2
 import rospy
 import os
