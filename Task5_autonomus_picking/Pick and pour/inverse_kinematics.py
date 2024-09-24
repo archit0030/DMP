@@ -41,7 +41,8 @@ class DepthTo3DConverter:
         rospy.spin()
 
     def camera_info_callback(self, data):
-
+        #to get these parameter do
+        #rostopic echo /camera/depth/camera_info
         
         self.fx =360.01333 #335.234436#
         self.fy = 360.013366699#335.234436#
