@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+
+#steps to execute - 
+# save this file in a folder kortex_examples/src/moveit/
+# roslaunch kortex_driver kortex_driver.launch
+# run python file directly - python3 cartesian.py
+
 import sys
 import time
 import rospy
