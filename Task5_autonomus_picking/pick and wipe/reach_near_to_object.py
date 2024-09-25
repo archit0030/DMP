@@ -79,7 +79,7 @@ def callback(data):
             if my.twist.linear_x == 0:
                 rospy.loginfo("Stopping robot")
                 # depth = 0.27
-                os.system('python3 /home/architsharma/catkin_workspace/src/ros_kortex/kortex_examples/src/move_it/healthcare/center_based_reach/final_inverse_kinematics/dynamic_moping/inverse_kinematics.py')
+                os.system('python3 Manipulator-Systems-Learning-and-Execution\Task5_autonomus_picking\pick and wipe\reach_near_to_object.py/ros_moveit_setup.py')
                 rospy.signal_shutdown("Reached target velocity")
             # rate.sleep()  
 
