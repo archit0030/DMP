@@ -6,8 +6,6 @@
 # roslaunch kortex_driver kortex_driver.launch
 # run python file directly - python3 cartesian.py
 
-#!/usr/bin/env python3
-
 
 import sys
 import rospy
